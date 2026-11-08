@@ -3,6 +3,15 @@
 Dated entries, newest first. There are no tagged releases yet; "merged to
 main" is the unit of change.
 
+## 2026-11-08 - Repository tidy-up
+
+- Point the README CI badge at this repository.
+- List docs/06-offline-example.md in the README documentation table.
+- Update the README verification paragraph now that a DNS-route session is
+  logged; settings menu names remain unverified.
+- Drop a redundant URL-scheme check in `fetch_query_log.py` (the host is
+  already validated) and group `classify_dns_log.py` imports.
+
 ## 2026-11-08 - AdGuard Home setup troubleshooting
 
 - Add TROUBLESHOOTING.md entries for port 53 held by `systemd-resolved` and

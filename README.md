@@ -4,7 +4,7 @@
 
 # VIDAA Clean TV
 
-[![test](https://github.com/HALCONDEORO/vidaa-clean-tv/actions/workflows/test.yml/badge.svg)](https://github.com/HALCONDEORO/vidaa-clean-tv/actions/workflows/test.yml)
+[![test](https://github.com/OliverS45/vidaa-clean-tv/actions/workflows/test.yml/badge.svg)](https://github.com/OliverS45/vidaa-clean-tv/actions/workflows/test.yml)
 
 Documented privacy settings and DNS filtering guidance for smart TVs running VIDAA, plus offline tools to inspect DNS logs. The aim is to reduce ads and telemetry without rooting or changing firmware. **One owner-reported DNS-filtering session is logged (Hisense 65A67H); no model has a completed settings session yet.** Menu availability and results depend on the model, region and firmware; see [TESTING.md](TESTING.md).
 
@@ -65,6 +65,7 @@ Per-model pages live under [docs/tv/](docs/tv/): [Toshiba 50UV1553DB](docs/tv/to
 | [docs/03-observing-dns.md](docs/03-observing-dns.md) | Route 3: observing DNS and building your own rules |
 | [docs/04-local-control-mqtt.md](docs/04-local-control-mqtt.md) | Note on the local MQTT control interface |
 | [docs/05-first-hardware-session.md](docs/05-first-hardware-session.md) | Protocol for the first real cleanup session |
+| [docs/06-offline-example.md](docs/06-offline-example.md) | Offline walkthrough of the scripts on synthetic data |
 | [TROUBLESHOOTING.md](TROUBLESHOOTING.md) | When something breaks or does not match the docs |
 
 ## What this project does NOT do
@@ -90,7 +91,7 @@ Reports from other VIDAA models are the most useful contribution right now - see
 
 ## Hardware verification status
 
-Nothing here is claimed as tested on a specific model until it appears in [TESTING.md](TESTING.md) with a date and a firmware version. The current target device is a Toshiba 50UV1553DB (VIDAA, Europe). Per-model pages live in [docs/tv/](docs/tv/). Until that first session is logged, treat every menu name as "wording varies - read the privacy section".
+Nothing here is claimed as tested on a specific model until it appears in [TESTING.md](TESTING.md) with a date and a firmware version. The current target device is a Toshiba 50UV1553DB (VIDAA, Europe). Per-model pages live in [docs/tv/](docs/tv/). So far only a DNS-route session on a Hisense 65A67H is logged; until a settings session is logged, treat every menu name as "wording varies - read the privacy section".
 
 ## License
 

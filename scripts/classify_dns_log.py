@@ -17,10 +17,10 @@ Examples:
 import argparse
 import json
 import math
-from datetime import datetime, timezone
 import re
 import sys
 from collections import Counter
+from datetime import datetime, timezone
 
 DNSMASQ_RE = re.compile(r"\bquery\[[A-Z]+\]\s+([A-Za-z0-9._-]+)\s+from\s+(\S+)")
 DOMAIN_RE = re.compile(r"^(?=.{1,253}$)([A-Za-z0-9_](?:[A-Za-z0-9_-]{0,61}[A-Za-z0-9_])?\.)+[A-Za-z]{2,63}\.?$")
