@@ -3,6 +3,16 @@
 Dated entries, newest first. There are no tagged releases yet; "merged to
 main" is the unit of change.
 
+## 2026-11-08 - First logged hardware session (Hisense 65A67H, DNS route)
+
+- Log an owner-reported route 2 session on a Hisense 65A67H, firmware
+  V0000.09.09G.P0930: the TV used AdGuard Home with the upstream blocklist,
+  some queries were blocked, the home screen was reported cleaner, and
+  YouTube and Netflix kept working.
+- Add a model column to the TESTING.md session log and update the Hisense,
+  model-index and README status lines. Route 1 and the Toshiba target remain
+  unverified.
+
 ## 2026-10-29 - Client inventory for offline logs
 
 - Add `classify_dns_log.py --clients` to list client identifiers, query counts
