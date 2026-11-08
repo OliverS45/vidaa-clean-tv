@@ -3,6 +3,14 @@
 Dated entries, newest first. There are no tagged releases yet; "merged to
 main" is the unit of change.
 
+## 2026-11-08 - AdGuard Home setup troubleshooting
+
+- Add TROUBLESHOOTING.md entries for port 53 held by `systemd-resolved` and
+  for AdGuard Home listening only on `127.0.0.1`, both hit during the
+  Hisense 65A67H session.
+- Expand "no traffic from the TV" with the manual-IP, power-cycle, Docker
+  bridge and IPv6 DNS checks.
+
 ## 2026-11-08 - First logged hardware session (Hisense 65A67H, DNS route)
 
 - Log an owner-reported route 2 session on a Hisense 65A67H, firmware
