@@ -54,7 +54,7 @@ Intended for TVs running **VIDAA**, including sets marketed with HomeOS branding
 | **Android TV / Google TV sets, including Hisense models that actually run Android** | You want [Clean Your TV](https://github.com/Gathin23/cleanyourtv) instead - this project does not apply to Android. |
 | **Samsung (Tizen), LG (webOS)** | Different systems entirely; nothing here applies. |
 
-Per-model pages live under [docs/tv/](docs/tv/): [Toshiba 50UV1553DB](docs/tv/toshiba-50uv1553db.md) and [Hisense VIDAA](docs/tv/hisense.md).
+Per-model pages live under [docs/tv/](docs/tv/): [Toshiba 50UV1553DB](docs/tv/toshiba-50uv1553db.md), [Hisense 65A67H](docs/tv/hisense-65a67h.md) and [Hisense VIDAA](docs/tv/hisense.md).
 
 ## Documentation
 

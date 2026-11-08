@@ -6,6 +6,7 @@ needs is in [CONTRIBUTING.md](../../CONTRIBUTING.md).
 | Model | Page | Verified on that device |
 |---|---|---|
 | Toshiba 50UV1553DB (Europe) | [toshiba-50uv1553db.md](toshiba-50uv1553db.md) | Nothing yet - awaiting the first logged session |
+| Hisense 65A67H (VIDAA U6) | [hisense-65a67h.md](hisense-65a67h.md) | Partial: U6 menu names reported matching on 2026-11-08; firmware and after-checks not recorded |
 | Hisense (general) | [hisense.md](hisense.md) | Settings documented by external sources, not re-verified here |
 
 "Verified" means a row in [TESTING.md](../../TESTING.md) with a date and a
