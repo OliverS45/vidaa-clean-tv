@@ -125,4 +125,5 @@ network gets answers from AdGuard Home (see the previous section). Then:
 - Or check your per-client rules in AdGuard Home / Pi-hole.
 
 In the 2026-11-08 session in [TESTING.md](TESTING.md), the TV appeared in the
-log after the listen-address fix above and a full power cycle.
+log after the listen-address fix above (a TV power cycle was suggested at
+that point; whether it was done was not recorded).
