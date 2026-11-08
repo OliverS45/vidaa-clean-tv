@@ -71,10 +71,8 @@ def basic_auth_header(user, password):
 
 
 def fetch_page(host, user, password, limit, offset=0):
+    # build_querylog_url validates the host, rejecting non-HTTP(S) schemes.
     url = build_querylog_url(host, limit, offset)
-    scheme = urllib.parse.urlparse(url).scheme
-    if scheme not in ("http", "https"):
-        raise ValueError(f"Unsupported URL scheme: {scheme!r}")
     req = urllib.request.Request(url, headers={"Authorization": basic_auth_header(user, password)})
     opener = urllib.request.build_opener(_NoRedirect)
     with opener.open(req, timeout=15) as resp:
