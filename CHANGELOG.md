@@ -6,9 +6,9 @@ main" is the unit of change.
 ## 2026-11-08 - Hisense 65A67H partial session
 
 - Add docs/tv/hisense-65a67h.md and TESTING.md rows: on VIDAA U6 the owner
-  reported every documented settings path matching the manual wording.
-- Firmware version and after-checks are not recorded yet, so the session is
-  labeled partial. No DNS filtering was tried.
+  reported every documented settings path matching the manual wording, and
+  apps, HDMI, YouTube and Netflix still working afterwards.
+- The firmware version is not recorded yet, so the session is labeled partial. No DNS filtering was tried.
 
 ## 2026-10-29 - Client inventory for offline logs
 

@@ -8,7 +8,7 @@ ourselves.
 |---|---|
 | Upstream DNS blocklist | Tested by its author on Hisense VIDAA sets in Europe (Germany), AdGuard Home on a Raspberry Pi; YouTube and Netflix reported working |
 | Settings paths in [../01-on-device-settings.md](../01-on-device-settings.md) | Written from Hisense-family guides; verify the wording on your model |
-| This project's own hardware tests | One partial session: [Hisense 65A67H (VIDAA U6)](hisense-65a67h.md), menu names matched; firmware and after-checks not recorded |
+| This project's own hardware tests | One partial session: [Hisense 65A67H (VIDAA U6)](hisense-65a67h.md), menu names matched, apps/HDMI/streaming still work; firmware not recorded |
 
 The [Clean Your TV non-Android guide](https://cleanyour.tv/not-android)
 covers the VIDAA settings route step by step, sourced to the official VIDAA

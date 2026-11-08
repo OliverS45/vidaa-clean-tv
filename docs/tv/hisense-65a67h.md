@@ -2,8 +2,9 @@
 
 Status: **partial first session.** The owner checked the remote settings
 pass on 2026-11-08 and reported that every menu path matched the VIDAA U6
-manual wording. The firmware version and the after-checks (apps, HDMI,
-streaming) were not recorded, so the session is not complete yet - see
+manual wording, and that apps, HDMI inputs, YouTube and Netflix still work
+afterwards. The firmware version was not recorded, so the session is not
+complete yet - see
 [../../TESTING.md](../../TESTING.md).
 
 | Fact | Detail |
@@ -29,10 +30,12 @@ settings off:
 - Settings → Support → Disclaimer and Privacy → EULA and Other Policy and
   Services: data-sharing consents withdrawn.
 
+After the pass, the owner reported apps, HDMI inputs, YouTube and Netflix
+working normally.
+
 ## Still unknown
 
 - Firmware version.
-- Whether apps, HDMI inputs, YouTube and Netflix behave normally afterwards.
 - Whether the settings survive a firmware update.
 - The effect of the settings on network traffic: no DNS log was taken, so
   nothing here says the TV sends less data.

@@ -20,9 +20,9 @@ The step-by-step protocol for the first session is [docs/05-first-hardware-sessi
 ## Session log
 
 The 2026-11-08 rows are a partial session on a Hisense 65A67H, not the
-target device: menu names were confirmed by the owner, but the firmware
-version and the after-checks (apps, HDMI, streaming) are still missing, so
-they do not yet meet the rule above.
+target device: menu names and the after-checks were confirmed by the owner,
+but the firmware version is still missing, so they do not yet meet the rule
+above.
 
 | Date | Firmware | Step | Expected | Observed | Reverted |
 |---|---|---|---|---|---|
@@ -30,3 +30,4 @@ they do not yet meet the rule above.
 | 2026-11-08 | Not recorded (Hisense 65A67H, VIDAA U6) | Device usage data, App usage data collection → Off | Present next to ACR | Reported by owner: present, switched off | No |
 | 2026-11-08 | Not recorded (Hisense 65A67H, VIDAA U6) | Settings → System → Advanced settings → Personalised Ads → Off, Reset Ads ID | Present as in the U6 manual | Reported by owner: present, switched off and reset | No |
 | 2026-11-08 | Not recorded (Hisense 65A67H, VIDAA U6) | Settings → Support → Disclaimer and Privacy → EULA and Other Policy and Services | Consents listed and can be withdrawn | Reported by owner: matched, consents withdrawn | No |
+| 2026-11-08 | Not recorded (Hisense 65A67H, VIDAA U6) | After-check: apps, HDMI inputs, YouTube, Netflix | Still working after the settings pass | Reported by owner: all working | No |
